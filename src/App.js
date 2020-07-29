@@ -1,15 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-
-import DesignCounter from './Component/DesignCounter';
+// import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import CartDesign from './Component/CartDesign';
 
 
 function App() {
   return (
     <div className="App">
-      <DesignCounter />
+      <CartDesign />
     </div>
   );
 }
